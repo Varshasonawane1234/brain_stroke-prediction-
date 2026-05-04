@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-# Data load आणि model train
 @st.cache_resource
 def train_model():
     df = pd.read_csv('brain_stroke.csv')
